@@ -9,5 +9,5 @@ int main() {
 
     auto totalofthree = add(1.1, 2.2, 3.3);
     cout << "1.1 + 2.2 + 3.3 = "<< totalofthree << '\n';
-    return 0;
+
 }
