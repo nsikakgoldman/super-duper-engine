@@ -5,5 +5,8 @@ set(CMAKE_CXX_STANDARD 17)
 
 
 add_executable(super_duper_engine main.cpp
-        Functions.cpp)
+        Functions.cpp
+        Account.h
+        Account.cpp
+        Transaction.cpp)
 
