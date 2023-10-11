@@ -6,6 +6,15 @@ using std::cin;
 #include <string>
 using std::string;
 
+#include <vector>
+using std::vector;
+using std::begin;
+using std::end;
+
+#include <algorithm>
+using std::sort;
+using std::count;
+
 #include "Functions.h"
 
 int main() {
@@ -34,15 +43,41 @@ int main() {
 //    }
 //    return 0;
     string word1, word2;
-    cout << "Enter the first word ";
-    cin >> word1;
-    cout << "enter the second word ";
-    cin >> word2;
-    if (word1.length() > word2.length())
+//    cout << "Enter the first word ";
+//    cin >> word1;
+//    cout << "enter the second word ";
+//    cin >> word2;
+//    if (word1.length() > word2.length())
+//    {
+//        cout<< "word1 is greater than word2";
+//    } else {
+//        cout << "word2 is greater than word1";
+//    }
+
+//    collections
+    vector<int> nums;
+    for (int i= 0; i < 10; i++)
     {
-        cout<< "word1 is greater than word2";
-    } else {
-        cout << "word2 is greater than word1";
+        nums.push_back(i);
     }
 
+    for(auto item : nums){
+        cout << item << "";
+    }
+    cout << '\n';
+    vector<string> words;
+
+    cout << "enter three words " << '\n';
+    for (int i = 0; i < 3; i++)
+    {
+        string s;
+        cin >> s;
+        words.push_back(s);
+    }
+
+    for(auto item: words)
+    {
+        cout << item << " ";
+    }
+    cout << '\n';
 }
