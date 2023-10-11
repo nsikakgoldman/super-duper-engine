@@ -55,29 +55,31 @@ int main() {
 //    }
 
 //    collections
-    vector<int> nums;
-    for (int i= 0; i < 10; i++)
-    {
-        nums.push_back(i);
-    }
-
-    for(auto item : nums){
-        cout << item << "";
-    }
-    cout << '\n';
-    vector<string> words;
-
-    cout << "enter three words " << '\n';
-    for (int i = 0; i < 3; i++)
-    {
-        string s;
-        cin >> s;
-        words.push_back(s);
-    }
-
-    for(auto item: words)
-    {
-        cout << item << " ";
-    }
-    cout << '\n';
+//    vector<int> nums;
+//    for (int i= 0; i < 10; i++)
+//    {
+//        nums.push_back(i);
+//    }
+//
+//    for(auto item : nums){
+//        cout << item << "";
+//    }
+//    cout << '\n';
+//    vector<string> words;
+//
+//    cout << "enter three words " << '\n';
+//    for (int i = 0; i < 3; i++)
+//    {
+//        string s;
+//        cin >> s;
+//        words.push_back(s);
+//    }
+//
+//    for(auto item: words)
+//    {
+//        cout << item << " ";
+//    }
+//    cout << '\n';
+    // operator overloading
+//    += == << >> ::
 }
