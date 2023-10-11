@@ -1,26 +1,4 @@
 # ninja log v5
-1	30	1696929553942382960	CMakeFiles/super_duper_engine.dir/Functions.cpp.o	7b91a5ecff039f4e
-1	495	1696929554410137322	CMakeFiles/super_duper_engine.dir/main.cpp.o	a22bb9c743540c6
-495	635	1696929554550063870	super_duper_engine	899723a0bb18c81b
-3	50	1696931427300238798	CMakeFiles/super_duper_engine.dir/Functions.cpp.o	7b91a5ecff039f4e
-1	678	1696931427928204839	CMakeFiles/super_duper_engine.dir/main.cpp.o	a22bb9c743540c6
-678	813	1696931428060197757	super_duper_engine	899723a0bb18c81b
-1	505	1696933271052470643	CMakeFiles/super_duper_engine.dir/main.cpp.o	a22bb9c743540c6
-505	607	1696933271155862519	super_duper_engine	899723a0bb18c81b
 1	26	1696933586274095260	CMakeFiles/super_duper_engine.dir/Functions.cpp.o	7b91a5ecff039f4e
-0	548	1696933586797870054	CMakeFiles/super_duper_engine.dir/main.cpp.o	a22bb9c743540c6
-548	727	1696933586973794411	super_duper_engine	899723a0bb18c81b
-1	506	1696933650297039791	CMakeFiles/super_duper_engine.dir/main.cpp.o	a22bb9c743540c6
-506	610	1696933650397314590	super_duper_engine	899723a0bb18c81b
-1	479	1696933995334117664	CMakeFiles/super_duper_engine.dir/main.cpp.o	a22bb9c743540c6
-480	587	1696933995438075566	super_duper_engine	899723a0bb18c81b
-1	491	1696934153295918873	CMakeFiles/super_duper_engine.dir/main.cpp.o	a22bb9c743540c6
-491	600	1696934153403861228	super_duper_engine	899723a0bb18c81b
-1	728	1696995973837481000	CMakeFiles/super_duper_engine.dir/main.cpp.o	a22bb9c743540c6
-728	845	1696995973953497389	super_duper_engine	899723a0bb18c81b
-1	468	1696996499722018706	CMakeFiles/super_duper_engine.dir/main.cpp.o	a22bb9c743540c6
-468	561	1696996499818060016	super_duper_engine	899723a0bb18c81b
-1	813	1696998707586551321	CMakeFiles/super_duper_engine.dir/main.cpp.o	a22bb9c743540c6
-813	921	1696998707698478391	super_duper_engine	899723a0bb18c81b
 1	807	1696998752254017120	CMakeFiles/super_duper_engine.dir/main.cpp.o	a22bb9c743540c6
 807	907	1696998752353971373	super_duper_engine	899723a0bb18c81b
