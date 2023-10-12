@@ -128,6 +128,11 @@ int main() {
     // operator overloading
 //    += == << >> ::
 //classes
+        Person p1;
+        Person p2;
+        std::string name = p1.getName();
+//        int i  = p2.arbitrary_number; can't work due to encapsulation... use getter instead
+
 //    Account a1;
 //    a1.Deposite(90);
 //    cout << "After depositing $90 " <<

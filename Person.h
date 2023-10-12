@@ -10,11 +10,7 @@ private:
     std::string lastname;
     int arbitrary_number;
 public:
-    Person(std::string first, std::string last, int arbitrary);
-    ~Person();
-    std::string GetName() const;
-    int GetNumber() const {return arbitrary_number;}
-    void SetNumber(int number) {arbitrary_number = number;}
+    std::string getName();
 };
 
 
