@@ -161,6 +161,7 @@ int main() {
     printf("rKate: %s %i", rKate.GetName(), rKate.GetNumber())
     **/
 //      const
+   /**
     int i = 3;
     int const ci = 3;
     i = 4;
@@ -174,7 +175,25 @@ int main() {
     int j = 10;
     int DoubleJ = DoubleIt(j);
     int DoubleTen = DoubleIt(10);
+**/
+//const with indirection
+    int i = 3;
+    int* pI = &i;
+
+    int j = 10;
+
+    int const * pcI = pI; // pointer to a const implies I can't change the value, but I can change the pointer
+    pcI = &j;
+    pcI = &i;
+
+    int * const cpI = pI; // const pointer implies I can change the value but not the pointer
+    *cpI = 7;
+
+    int const * const crazy = pI;
+
+    j = *crazy;
+
+    printf("%d", j);
 
     return 0;
-
 }
