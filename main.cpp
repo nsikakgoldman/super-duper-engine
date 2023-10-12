@@ -154,6 +154,18 @@ int main() {
     rKate.SetNumber(345);
     printf("rKate: %s %i", rKate.GetName(), rKate.GetNumber())
     **/
+//      const
+    int i = 3;
+    int const ci = 3;
+    i = 4;
+
+    int& ri = i;
+    ri = 5;
+
+    // the const precedence will disable the mutation of cri
+    int const & cri = i;
+
+    int j = 10;
     return 0;
 
 }
