@@ -1,7 +1,7 @@
 #include <iostream>
-using std::cout;
+//using std::cout;
 //working with string
-using std::cin;
+//using std::cin;
 
 #include <string>
 using std::string;
@@ -14,6 +14,7 @@ using std::end;
 #include <algorithm>
 using std::sort;
 using std::count;
+//using std::cout;
 
 #include "Functions.h"
 
@@ -136,8 +137,8 @@ int main() {
          * constructing and destructing objetcs
          */
     }
-    std::cout << "after innermost block "<< std::endl;
-    std::string name = p1.getName();
+    cout << "after innermost block "<< std::endl;
+    string name = p1.getName();
 //        int i  = p2.arbitrary_number; can't work due to encapsulation... use getter instead
 
 //    Account a1;
