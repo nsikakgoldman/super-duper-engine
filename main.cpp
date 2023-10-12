@@ -128,9 +128,16 @@ int main() {
     // operator overloading
 //    += == << >> ::
 //classes
-        Person p1 = Person("John", "Goldman", 26);
-        std::string name = p1.getName();
+    Person p1 = Person("John", "Goldman", 26);
+//        std::string name = p1.getName();
+    {
         Person p2;
+        /***
+         * constructing and destructing objetcs
+         */
+    }
+    std::cout << "after innermost block "<< std::endl;
+    std::string name = p1.getName();
 //        int i  = p2.arbitrary_number; can't work due to encapsulation... use getter instead
 
 //    Account a1;

@@ -11,7 +11,8 @@ private:
     int arbitrary_number;
 public:
     Person(std::string first, std::string last, int arbitrary);
-    Person() = default; // this tells the compiler to auto handle it declaration
+    Person(); // this tells the compiler to auto handle it declaration
+    ~Person(); // adding a destructor
     std::string getName();
 };
 
