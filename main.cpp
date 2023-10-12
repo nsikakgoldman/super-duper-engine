@@ -177,6 +177,7 @@ int main() {
     int DoubleTen = DoubleIt(10);
 **/
 //const with indirection
+/**
     int i = 3;
     int* pI = &i;
 
@@ -194,6 +195,7 @@ int main() {
     j = *crazy;
 
     printf("%d", j);
+    **/
 
     return 0;
 }
