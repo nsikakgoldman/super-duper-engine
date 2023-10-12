@@ -155,7 +155,7 @@ int main() {
     printf("rKate: %s %i", rKate.GetName(), rKate.GetNumber())
     **/
 //      const
-    int i = 3;
+    /**int i = 3;
     int const ci = 3;
     i = 4;
 
@@ -166,6 +166,7 @@ int main() {
     int const & cri = i;
 
     int j = 10;
+     **/
     return 0;
 
 }
