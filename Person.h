@@ -10,6 +10,8 @@ private:
     std::string lastname;
     int arbitrary_number;
 public:
+    Person(std::string first, std::string last, int arbitrary);
+    Person() = default; // this tells the compiler to auto handle it declaration
     std::string getName();
 };
 

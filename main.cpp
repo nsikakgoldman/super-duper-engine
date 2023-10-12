@@ -128,9 +128,9 @@ int main() {
     // operator overloading
 //    += == << >> ::
 //classes
-        Person p1;
-        Person p2;
+        Person p1 = Person("John", "Goldman", 26);
         std::string name = p1.getName();
+        Person p2;
 //        int i  = p2.arbitrary_number; can't work due to encapsulation... use getter instead
 
 //    Account a1;
