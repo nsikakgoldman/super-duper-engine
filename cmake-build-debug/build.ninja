@@ -73,6 +73,12 @@ build CMakeFiles/super_duper_engine.dir/Transaction.cpp.o: CXX_COMPILER__super_d
   OBJECT_DIR = CMakeFiles/super_duper_engine.dir
   OBJECT_FILE_DIR = CMakeFiles/super_duper_engine.dir
 
+build CMakeFiles/super_duper_engine.dir/Person.cpp.o: CXX_COMPILER__super_duper_engine_unscanned_Debug /home/golman/Projects/super-duper-engine/Person.cpp || cmake_object_order_depends_target_super_duper_engine
+  DEP_FILE = CMakeFiles/super_duper_engine.dir/Person.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/super_duper_engine.dir
+  OBJECT_FILE_DIR = CMakeFiles/super_duper_engine.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target super_duper_engine
@@ -81,7 +87,7 @@ build CMakeFiles/super_duper_engine.dir/Transaction.cpp.o: CXX_COMPILER__super_d
 #############################################
 # Link the executable super_duper_engine
 
-build super_duper_engine: CXX_EXECUTABLE_LINKER__super_duper_engine_Debug CMakeFiles/super_duper_engine.dir/main.cpp.o CMakeFiles/super_duper_engine.dir/Functions.cpp.o CMakeFiles/super_duper_engine.dir/Account.cpp.o CMakeFiles/super_duper_engine.dir/Transaction.cpp.o
+build super_duper_engine: CXX_EXECUTABLE_LINKER__super_duper_engine_Debug CMakeFiles/super_duper_engine.dir/main.cpp.o CMakeFiles/super_duper_engine.dir/Functions.cpp.o CMakeFiles/super_duper_engine.dir/Account.cpp.o CMakeFiles/super_duper_engine.dir/Transaction.cpp.o CMakeFiles/super_duper_engine.dir/Person.cpp.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/super_duper_engine.dir
   POST_BUILD = :

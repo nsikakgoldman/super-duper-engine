@@ -8,5 +8,7 @@ add_executable(super_duper_engine main.cpp
         Functions.cpp
         Account.h
         Account.cpp
-        Transaction.cpp)
+        Transaction.cpp
+        Person.h
+        Person.cpp)
 

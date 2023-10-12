@@ -21,6 +21,7 @@ using std::count;
 
 //function pointers
 #include <cstdio>
+#include "Person.h"
 
 //int addition(int a, int b) {return (a + b);}
 //int subtraction(int a, int b) {return (a - b);}
@@ -28,6 +29,11 @@ typedef int (*operation)(int a, int b);
 //#define ARRAYSIZE 5
 //
 //#define SQ(a) (a)*(a)
+
+int DoubleIt(int const& x)
+{
+    return  x * 2;
+}
 
 int main() {
 // function pointers
@@ -81,7 +87,7 @@ int main() {
 //        cout<<"expected result."<<'\n';
 //    }
 //    return 0;
-    string word1, word2;
+//    string word1, word2;
 //    cout << "Enter the first word ";
 //    cin >> word1;
 //    cout << "enter the second word ";
@@ -155,7 +161,7 @@ int main() {
     printf("rKate: %s %i", rKate.GetName(), rKate.GetNumber())
     **/
 //      const
-    /**int i = 3;
+    int i = 3;
     int const ci = 3;
     i = 4;
 
@@ -163,10 +169,12 @@ int main() {
     ri = 5;
 
     // the const precedence will disable the mutation of cri
-    int const & cri = i;
+//    int const & cri = i;
 
     int j = 10;
-     **/
+    int DoubleJ = DoubleIt(j);
+    int DoubleTen = DoubleIt(10);
+
     return 0;
 
 }
