@@ -4,6 +4,8 @@
 
 #include "Person.h"
 #include <iostream>
+using std::string;
+using std::cout;
 
 Person::Person(string first, string last, int arbitrary) : firstname(first), lastname(last), arbitrary_number(arbitrary)
 {

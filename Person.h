@@ -4,19 +4,17 @@
 #pragma once
 #include <string>
 #include <iostream>
-using std::string;
-using std::cout;
 
 class Person {
 private:
-    string firstname;
-    string lastname;
+    std::string firstname;
+    std::string lastname;
     int arbitrary_number;
 public:
-    Person(string first, string last, int arbitrary);
+    Person(std::string first, std::string last, int arbitrary);
     Person(); // this tells the compiler to auto handle it declaration
     ~Person(); // adding a destructor
-    string getName();
+    std::string getName();
 };
 
 

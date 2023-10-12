@@ -23,6 +23,7 @@ using std::count;
 //function pointers
 #include <cstdio>
 #include "Person.h"
+using std::cout;
 
 //int addition(int a, int b) {return (a + b);}
 //int subtraction(int a, int b) {return (a - b);}
