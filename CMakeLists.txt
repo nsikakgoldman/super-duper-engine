@@ -10,5 +10,8 @@ add_executable(super_duper_engine main.cpp
         Account.cpp
         Transaction.cpp
         Person.h
-        Person.cpp)
+        Person.cpp
+        Twitter.h
+        Twitter.cpp
+        status.h)
 

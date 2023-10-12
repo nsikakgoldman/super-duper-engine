@@ -23,6 +23,8 @@ using std::count;
 //function pointers
 #include <cstdio>
 #include "Person.h"
+#include "Twitter.h"
+#include "status.h"
 using std::cout;
 
 //int addition(int a, int b) {return (a + b);}
@@ -38,6 +40,26 @@ int DoubleIt(int const& x)
 }
 
 int main() {
+    /*
+     * working with inheritance
+     *
+     */
+    Person p1 = Person("goldman", "john", 26);
+    {
+        Twitter t1("someone", "else", 456, "@___goldman");
+        string name2 = t1.getName();
+    }
+    /**
+     * enum implementation goes here
+     */
+     Status s = Pending;
+     s = Approved;
+
+     FileError fe = FileError::notfound;
+     fe = FileError::ok;
+     NetworkError ne = NetworkError::disconnected;
+     ne = NetworkError::ok;
+
 // function pointers
 //    int numbers[ARRAYSIZE] = {200, 600, 123, 456, 789};
 //    int twentyfive = SQ(ARRAYSIZE);
@@ -130,16 +152,18 @@ int main() {
     // operator overloading
 //    += == << >> ::
 //classes
+/**
     Person p1 = Person("John", "Goldman", 26);
 //        std::string name = p1.getName();
     {
         Person p2;
-        /***
-         * constructing and destructing objetcs
-         */
+
+         constructing and destructing objetcs
+
     }
     cout << "after innermost block "<< std::endl;
     string name = p1.getName();
+    **/
 //        int i  = p2.arbitrary_number; can't work due to encapsulation... use getter instead
 
 //    Account a1;
