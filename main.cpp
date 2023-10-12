@@ -142,16 +142,18 @@ int main() {
 //        cout << s << '\n';
 //    }
 //    pointer
+/**
     int a = 3;
     printf("a is %i \n", a);
     int& rA = a;
     rA = 5;
     printf("a is %i \n", a);
 
-//    Person Kate("Georgegoldman", "John", 234);
-//    Person& rKate = Kate;
-//    rKate.SetNumber(345);
-//    printf("rKate: %s %i", rKate.GetName(), rKate.GetNumber())
+    Person Kate("Georgegoldman", "John", 234);
+    Person& rKate = Kate;
+    rKate.SetNumber(345);
+    printf("rKate: %s %i", rKate.GetName(), rKate.GetNumber())
+    **/
     return 0;
 
 }
