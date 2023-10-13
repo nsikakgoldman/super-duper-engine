@@ -26,6 +26,7 @@ using std::count;
 #include "Twitter.h"
 #include "status.h"
 using std::cout;
+using std::endl;
 
 //int addition(int a, int b) {return (a + b);}
 //int subtraction(int a, int b) {return (a - b);}
@@ -44,11 +45,11 @@ int main() {
      * working with inheritance
      *
      */
-    Person p1 = Person("goldman", "john", 26);
-    {
-        Twitter t1("someone", "else", 456, "@___goldman");
-        string name2 = t1.getName();
-    }
+//    Person p1 = Person("goldman", "john", 26);
+//    {
+//        Twitter t1("someone", "else", 456, "@___goldman");
+//        string name2 = t1.getName();
+//    }
     /**
      * enum implementation goes here
      */
@@ -59,6 +60,25 @@ int main() {
      fe = FileError::ok;
      NetworkError ne = NetworkError::disconnected;
      ne = NetworkError::ok;
+     /**
+      * operator over loading implementtion
+      */
+      Person p1("goldman", "john", 27);
+      Person p2("onyedikachi", "ukaegbu", 26);
+      cout << "p1 is ";
+      if (!(p1 < p2))
+          cout << "not ";
+      cout << "less than p2" << endl;
+
+      cout << "p1 is ";
+      if (!(p1 < 300))
+          cout << "not ";
+      cout << "less than 300" << endl;
+
+      cout << "300 is ";
+      if (!(300 < p1))
+          cout << "not ";
+      cout << "less than p1 "<< endl;
 
 // function pointers
 //    int numbers[ARRAYSIZE] = {200, 600, 123, 456, 789};
