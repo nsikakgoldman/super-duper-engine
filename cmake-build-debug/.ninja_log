@@ -1,21 +1,9 @@
 # ninja log v5
 1	26	1696933586274095260	CMakeFiles/super_duper_engine.dir/Functions.cpp.o	7b91a5ecff039f4e
-2	573	1697115603990161042	CMakeFiles/super_duper_engine.dir/Person.cpp.o	908219cae9c7e4d
-0	1325	1697037168821777865	CMakeFiles/super_duper_engine.dir/Account.cpp.o	182e8a751540ec25
-1	1009	1697115604426426722	CMakeFiles/super_duper_engine.dir/main.cpp.o	a22bb9c743540c6
-1	641	1697037168137870834	CMakeFiles/super_duper_engine.dir/Transaction.cpp.o	c25156281033d0ad
-1	460	1697115782745060912	CMakeFiles/super_duper_engine.dir/Twitter.cpp.o	9c903074734098ca
-461	572	1697115782853106569	super_duper_engine	715a5110e86ecddb
 1	550	1697206127030946615	CMakeFiles/super_duper_engine.dir/Person.cpp.o	908219cae9c7e4d
-1	742	1697206127222819415	CMakeFiles/super_duper_engine.dir/Twitter.cpp.o	9c903074734098ca
-0	997	1697206127474652467	CMakeFiles/super_duper_engine.dir/main.cpp.o	a22bb9c743540c6
-551	1069	1697206127546604767	CMakeFiles/super_duper_engine.dir/Resource.cpp.o	cc9e3f0745716fef
-1069	1175	1697206127654533218	super_duper_engine	bc84588b72235502
-1	738	1697206173218118360	CMakeFiles/super_duper_engine.dir/main.cpp.o	a22bb9c743540c6
-738	846	1697206173326135430	super_duper_engine	bc84588b72235502
-1	752	1697206381839355418	CMakeFiles/super_duper_engine.dir/main.cpp.o	a22bb9c743540c6
-752	864	1697206381947659496	super_duper_engine	bc84588b72235502
-0	731	1697206535765574368	CMakeFiles/super_duper_engine.dir/main.cpp.o	a22bb9c743540c6
-731	842	1697206535876862812	super_duper_engine	bc84588b72235502
+0	1325	1697037168821777865	CMakeFiles/super_duper_engine.dir/Account.cpp.o	182e8a751540ec25
 1	746	1697206667883207270	CMakeFiles/super_duper_engine.dir/main.cpp.o	a22bb9c743540c6
+551	1069	1697206127546604767	CMakeFiles/super_duper_engine.dir/Resource.cpp.o	cc9e3f0745716fef
+1	641	1697037168137870834	CMakeFiles/super_duper_engine.dir/Transaction.cpp.o	c25156281033d0ad
+1	742	1697206127222819415	CMakeFiles/super_duper_engine.dir/Twitter.cpp.o	9c903074734098ca
 746	862	1697206667999224029	super_duper_engine	bc84588b72235502
