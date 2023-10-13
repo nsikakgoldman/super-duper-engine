@@ -13,5 +13,7 @@ add_executable(super_duper_engine main.cpp
         Person.cpp
         Twitter.h
         Twitter.cpp
-        status.h)
+        status.h
+        Resource.h
+        Resource.cpp)
 

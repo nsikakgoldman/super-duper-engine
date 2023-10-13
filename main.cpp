@@ -25,6 +25,7 @@ using std::count;
 #include "Person.h"
 #include "Twitter.h"
 #include "status.h"
+#include "Resource.h"
 using std::cout;
 using std::endl;
 
@@ -35,10 +36,10 @@ typedef int (*operation)(int a, int b);
 //
 //#define SQ(a) (a)*(a)
 
-int DoubleIt(int const& x)
-{
-    return  x * 2;
-}
+//int DoubleIt(int const& x)
+//{
+//    return  x * 2;
+//}
 
 int main() {
     /*
@@ -53,32 +54,52 @@ int main() {
     /**
      * enum implementation goes here
      */
-     Status s = Pending;
-     s = Approved;
-
-     FileError fe = FileError::notfound;
-     fe = FileError::ok;
-     NetworkError ne = NetworkError::disconnected;
-     ne = NetworkError::ok;
+//     Status s = Pending;
+//     s = Approved;
+//
+//     FileError fe = FileError::notfound;
+//     fe = FileError::ok;
+//     NetworkError ne = NetworkError::disconnected;
+//     ne = NetworkError::ok;
      /**
       * operator over loading implementtion
       */
-      Person p1("goldman", "john", 27);
-      Person p2("onyedikachi", "ukaegbu", 26);
-      cout << "p1 is ";
-      if (!(p1 < p2))
-          cout << "not ";
-      cout << "less than p2" << endl;
+//      Person p1("goldman", "john", 27);
+//      Person p2("onyedikachi", "ukaegbu", 26);
+//      cout << "p1 is ";
+//      if (!(p1 < p2))
+//          cout << "not ";
+//      cout << "less than p2" << endl;
+//
+//      cout << "p1 is ";
+//      if (!(p1 < 300))
+//          cout << "not ";
+//      cout << "less than 300" << endl;
+//
+//      cout << "300 is ";
+//      if (!(300 < p1))
+//          cout << "not ";
+//      cout << "less than p1 "<< endl;
 
-      cout << "p1 is ";
-      if (!(p1 < 300))
-          cout << "not ";
-      cout << "less than 300" << endl;
+    /*
+     * free store in memory management exercise
+     */
+    {
+        Resource localResource ("local");
+        string localString = localResource.GetName();
+    }
+    Resource* pResource = new Resource("created with new");
+    string newString = pResource->GetName();
+    int j = 3;
+    Resource* p2 = pResource;
+    delete pResource;
+    //use the null pointer to reduce errors or memory errors
+    pResource = nullptr;
+//    string string2 = p2->GetName();
+    delete pResource;
+    delete p2;
 
-      cout << "300 is ";
-      if (!(300 < p1))
-          cout << "not ";
-      cout << "less than p1 "<< endl;
+//    string string3  = pResource->GetName();
 
 // function pointers
 //    int numbers[ARRAYSIZE] = {200, 600, 123, 456, 789};
