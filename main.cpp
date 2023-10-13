@@ -23,7 +23,10 @@ using std::count;
 //function pointers
 #include <cstdio>
 #include "Person.h"
+#include "Twitter.h"
+#include "status.h"
 using std::cout;
+using std::endl;
 
 //int addition(int a, int b) {return (a + b);}
 //int subtraction(int a, int b) {return (a - b);}
@@ -38,6 +41,45 @@ int DoubleIt(int const& x)
 }
 
 int main() {
+    /*
+     * working with inheritance
+     *
+     */
+//    Person p1 = Person("goldman", "john", 26);
+//    {
+//        Twitter t1("someone", "else", 456, "@___goldman");
+//        string name2 = t1.getName();
+//    }
+    /**
+     * enum implementation goes here
+     */
+     Status s = Pending;
+     s = Approved;
+
+     FileError fe = FileError::notfound;
+     fe = FileError::ok;
+     NetworkError ne = NetworkError::disconnected;
+     ne = NetworkError::ok;
+     /**
+      * operator over loading implementtion
+      */
+      Person p1("goldman", "john", 27);
+      Person p2("onyedikachi", "ukaegbu", 26);
+      cout << "p1 is ";
+      if (!(p1 < p2))
+          cout << "not ";
+      cout << "less than p2" << endl;
+
+      cout << "p1 is ";
+      if (!(p1 < 300))
+          cout << "not ";
+      cout << "less than 300" << endl;
+
+      cout << "300 is ";
+      if (!(300 < p1))
+          cout << "not ";
+      cout << "less than p1 "<< endl;
+
 // function pointers
 //    int numbers[ARRAYSIZE] = {200, 600, 123, 456, 789};
 //    int twentyfive = SQ(ARRAYSIZE);
@@ -130,16 +172,18 @@ int main() {
     // operator overloading
 //    += == << >> ::
 //classes
+/**
     Person p1 = Person("John", "Goldman", 26);
 //        std::string name = p1.getName();
     {
         Person p2;
-        /***
-         * constructing and destructing objetcs
-         */
+
+         constructing and destructing objetcs
+
     }
     cout << "after innermost block "<< std::endl;
     string name = p1.getName();
+    **/
 //        int i  = p2.arbitrary_number; can't work due to encapsulation... use getter instead
 
 //    Account a1;

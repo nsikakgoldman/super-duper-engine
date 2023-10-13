@@ -1,7 +1,12 @@
 # ninja log v5
 1	26	1696933586274095260	CMakeFiles/super_duper_engine.dir/Functions.cpp.o	7b91a5ecff039f4e
-1	501	1697108943540168960	CMakeFiles/super_duper_engine.dir/Person.cpp.o	908219cae9c7e4d
+2	573	1697115603990161042	CMakeFiles/super_duper_engine.dir/Person.cpp.o	908219cae9c7e4d
 0	1325	1697037168821777865	CMakeFiles/super_duper_engine.dir/Account.cpp.o	182e8a751540ec25
-1	734	1697108943772284971	CMakeFiles/super_duper_engine.dir/main.cpp.o	a22bb9c743540c6
+1	1009	1697115604426426722	CMakeFiles/super_duper_engine.dir/main.cpp.o	a22bb9c743540c6
 1	641	1697037168137870834	CMakeFiles/super_duper_engine.dir/Transaction.cpp.o	c25156281033d0ad
-735	837	1697108943876336975	super_duper_engine	2f5098fa27bac4cb
+1	460	1697115782745060912	CMakeFiles/super_duper_engine.dir/Twitter.cpp.o	9c903074734098ca
+461	572	1697115782853106569	super_duper_engine	715a5110e86ecddb
+2	722	1697203518995973743	CMakeFiles/super_duper_engine.dir/Twitter.cpp.o	9c903074734098ca
+2	761	1697203519035984196	CMakeFiles/super_duper_engine.dir/Person.cpp.o	908219cae9c7e4d
+1	919	1697203519192024960	CMakeFiles/super_duper_engine.dir/main.cpp.o	a22bb9c743540c6
+919	1062	1697203519336062589	super_duper_engine	715a5110e86ecddb
